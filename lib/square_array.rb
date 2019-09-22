@@ -8,6 +8,6 @@ def square_array(array)
     new_array << array[counter] ** 2
     
     counter += 1
-    new_array
+    return new_array
   end
 end
